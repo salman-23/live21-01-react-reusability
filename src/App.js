@@ -1,6 +1,6 @@
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <div className="AppWrapper">
       <h2>When in doubt, ask for help!</h2>
@@ -33,6 +33,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
