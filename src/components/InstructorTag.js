@@ -1,4 +1,4 @@
-import { AppWrapper2, Emoji, Name, GoToGithub } from "./styles";
+import { TagWrapper, Emoji, Name, GoToGithub } from "./styles";
 
 const InstructorTag = (props) => {
   return (
