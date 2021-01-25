@@ -2,28 +2,14 @@ import { TagWrapper, Emoji, Name, GoToGithub } from "./styles";
 
 const InstructorTag = (props) => {
   return (
-    <AppWrapper
-      onClick={() => window.open(`https://github.com/${props.goToGithub}`)}
+    <TagWrapper
+      onClick={() => window.open(`https://github.com/${props.github}`)}
     >
-      <TagWrapper>
-        <Emoji>props.emoji</Emoji>
-        <Name>props.name</Name>
-        <GoToGithub>props.goToGithub</GoToGithub>
-      </TagWrapper>
-    </AppWrapper>
+      <Emoji>{props.emoji}</Emoji>
+      <Name>{props.name}</Name>
+      <GoToGithub>Go To Github</GoToGithub>
+    </TagWrapper>
   );
 };
-
-// const InstructorTag = () => {
-//   // Create the InstructorTag component here
-
-//   return (
-//     <div className="timeline-container">
-//       {data.map((data, id) => (
-//         <InstructorItem data={data} key={id}></InstructorItem>
-//       ))}
-//     </div>
-//   );
-// };
 
 export default InstructorTag;

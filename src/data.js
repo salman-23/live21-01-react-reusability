@@ -1,22 +1,21 @@
 const data = [
   {
-    id: "1",
+    id: 1,
     emoji: "🌚",
     name: "Hamza",
-    goToGithub: "https://github.com/DarthHamza",
-    // Go to GitHub?text and link
+    github: "DarthHamza",
   },
   {
-    id: "2",
+    id: 2,
     emoji: "🐥",
     name: "Laila",
-    goToGithub: "https://github.com/Lailz",
+    github: "Lailz",
   },
   {
-    id: "3",
+    id: 3,
     emoji: "🦍",
     name: "Hasan",
-    goToGithub: "https://github.com/thehasanas",
+    github: "thehasanas",
   },
 ];
 
