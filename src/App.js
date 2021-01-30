@@ -3,19 +3,21 @@ import InstructorTag from "./components/InstructorTag";
 import data from "./data";
 
 const App = () => {
-  const instr = data.map((e) => (
+  const Instructors = data.map((instructor) => (
     <InstructorTag
-      key={e.id}
-      name={e.name}
-      github={e.github}
-      emoji={e.emoji}
-    ></InstructorTag>
+      key={instructor.id}
+      name={instructor.name}
+      github={instructor.github}
+      emoji={instructor.emoji}
+    />
+    
   ));
 
   return (
     <AppWrapper>
       <h2>When in doubt, ask for help!</h2>
-      {instr}
+      {Instructors}
+
     </AppWrapper>
   );
 };

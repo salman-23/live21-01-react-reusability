@@ -7,7 +7,7 @@ const InstructorTag = (props) => {
     >
       <Emoji>{props.emoji}</Emoji>
       <Name>{props.name}</Name>
-      <GoToGithub>Go To Github</GoToGithub>
+      <GoToGithub>Go to GitHub</GoToGithub>
     </TagWrapper>
   );
 };
